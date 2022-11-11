@@ -1,0 +1,10 @@
+.container{
+    text-align: center;
+}
+.container h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.container p{
+    margin-bottom: 1.5em;
+}

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-bottom: 2px solid red;
+    color: #FFF;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    margin-left: .5em;
+}
+.LinkItems{
+    display: flex;
+    list-style: none;
+}
+.LinkItems li {
+    margin-right: 1.3em;
+}
+.LinkItems a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.7s;
+    border-bottom: 2px solid  transparent;
+}
+.LinkItems a:hover{
+color:  red;
+border-color: red;
+
+}

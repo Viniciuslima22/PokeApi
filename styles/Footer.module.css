@@ -1,0 +1,16 @@
+.FooterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #FFF;
+    height: 150px;
+    margin-top: 2em;
+    border-top: 2px solid red;
+    
+
+
+}
+.FooterContainer span{
+    font-weight: bold;
+}

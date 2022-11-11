@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: #FFF;
+}
+
+.MainContainer{
+   min-height: 70vh; 
+ 
+}
