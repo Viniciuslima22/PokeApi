@@ -10,6 +10,10 @@
     border: 2px solid red;
     box-shadow:  5px 5px 12px rgba(255, 255, 255, 0.296) ;
 }
+.cardImg{
+    width: 120px;
+    height: 120px;
+}
 .car .id{
     margin: 1em 0;
     background-color: red;
@@ -39,4 +43,24 @@
     border-left: 2.5px solid red;
     border-right: 2.5px solid red;
     border-top: 1px solid red;
+}
+@media (max-width: 600px ){
+    .cardImg{
+        width: 70px;
+        height: 70px;
+    }
+    .card .title{
+        text-transform: capitalize;
+        margin-bottom: 0.3em;
+        font-size: 0.6em;
+    }
+    .details{
+        text-decoration: none;
+        padding: 0.3em 0.5em;
+        border-radius: 5px;
+        font-weight: bold;
+        
+        transition: all 0.3s;
+    
+    }
 }
