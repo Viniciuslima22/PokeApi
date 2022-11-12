@@ -15,7 +15,7 @@ type Pokemons = {
     }
 }
 
-export const getStaticPaths = async() => {
+export const getStaticPaths: GetStaticPaths = async() => {
 
     const maxPokemons = 251;
   const api = `https://pokeapi.co/api/v2/pokemon/`;
